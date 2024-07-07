@@ -46,7 +46,6 @@ def mfa_format(mfa):
 def mfa_broken_logic():
     session = os.getenv('SESSION')
     user = "carlos"
-    mfa_payload = '0000'
     cookies = {
                 'session': session,
                 'verify': user
